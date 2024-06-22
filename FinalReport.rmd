@@ -53,7 +53,14 @@ The bar chart demonstrates that the placebo of the drug has higher rates than th
 
 ### Numerical Descriptive Results
 
+```{r}
+table1 <- xtabs(~infected + treatment, data=druggies)
+rowPerc(table1)
+colPerc(table1)
+```
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
+The table shows that there were more people receiving the placebo than the drug as treatment. Only 24.29 of people with aids actually got the drug. 75.71 of the people with aids got placebo.   
 
 ## Inferential Results
 
