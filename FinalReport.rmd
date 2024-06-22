@@ -49,6 +49,8 @@ barchartGC(~infected + treatment,data=druggies, type="percent")
 
 ```
 
+The bar chart demonstrates that the placebo of the drug has higher rates than the actual aids drug (triUmpsal). It shows that the percentage rises higher than it did for those that received the drug.     
+
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
