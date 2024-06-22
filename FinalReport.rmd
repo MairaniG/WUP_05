@@ -63,9 +63,14 @@ colPerc(table1)
 The table shows that there were more people receiving the placebo than the drug as treatment. Only 24.29 of people with aids actually got the drug. 75.71 of the people with aids got placebo.   
 
 ## Inferential Results
-
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 
+From the inferential tests, we can see that the p-value was 0.0000000423. A value this small means that the null-hypothesis was rejected. This means it couldn't be proven that those diagnosed with aids don't benefit from the new preventative drug.   
 
 # Discussion and Conclusion
 
