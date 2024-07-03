@@ -72,7 +72,7 @@ fisher.test(table1)
 
 From the inferential tests, we can see that the p-value was 0.0000000423. A value this small means that the null-hypothesis was rejected. This means it couldn't be proven that those diagnosed with aids don't benefit from the new preventative drug.  
 
-Fisher's Exact Test shows that that in about 95 out of 100 of the studies, the true odds ratio would be somewhere between 0.23 and 0.53     
+Fisher's Exact Test shows that that in about 95 out of 100 of the studies, the true odds ratio would be somewhere between 0.23 and 0.53. This means that the  odds of benefiting from the drug are 0.35 times lower in the AIDS-diagnosed group.(the odds ratio 0.35:1)
 
 # Discussion and Conclusion
 
